@@ -1,0 +1,11 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".", // Définit le dossier racine pour les imports non relatifs
+    "paths": {
+      "#app": [".nuxt/types/app/index"], // Alias pour #app
+      "#imports": [".nuxt/types/app/imports"] // Alias pour #imports
+    },
+    "types": ["@types/node", "nuxt"] // Types de Nuxt et Node.js
+  }
+}
