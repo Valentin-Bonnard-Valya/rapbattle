@@ -9,7 +9,7 @@ The project includes a **NestJS** backend for orchestrating the rap battles and 
 ## Technology Stack
 
 - **Backend**: NestJS
-- **Frontend**: React
+- **Frontend**: Nuxt 3 / Vue / Typescript
 - **AI Models**:
   - **OpenAI GPT-3.5-turbo**
   - **Cohere Command R+**
